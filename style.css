@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    cursor: pointer;
+}
+button{
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    color: white;
+    transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+p{
+    cursor: pointer;
+    transition: 0.5s;
+}
+ p:hover{
+    transform: scale(1.1);
+}
+.main-img:hover{
+    transform: scale(1.1);
+}
+.main-img{
+    margin-top: 50px;
+}
